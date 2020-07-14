@@ -42,10 +42,13 @@ function getWeekDay() {
     'saturday',
     'sunday'
   ];
-  for (let i = 1; i <= 7; i = i + 1) {
-    console.log(weekDayName);
-    break  
-  }
+  // for (let i = 1; i <= 7; i = i + 1) {
+  //   console.log(weekDayName);
+  //   break  
+  // }
+  let d = new Date();
+  let n = d.getDay();
+  console.log(weekDayName[n]);
 }
 
 getWeekDay();
