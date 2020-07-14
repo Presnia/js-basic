@@ -29,3 +29,23 @@ for (let i = 0; i <= 1000; i = i + 1) {
 
 console.log(summy);
 
+// Name by number
+// let weekDayNumber = [1, 2, 3, 4, 5, 6, 7]
+
+function getWeekDay() {
+  let weekDayName = [
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+    'saturday',
+    'sunday'
+  ];
+  for (let i = 1; i <= 7; i = i + 1) {
+    console.log(weekDayName);
+    break  
+  }
+}
+
+getWeekDay();
